@@ -142,7 +142,7 @@ a{
     width: 1180px;
     height: 560px;
     border-radius: 4px;
-    margin-left: 23px;
+    margin-left: 80px;
     vertical-align: middle;
 }
 
@@ -278,4 +278,127 @@ a{
 .donate_img2:hover{
     transform:scale(1.09);
     color: rgb(255, 255, 255);
+}
+
+.other-projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-projects>div>img{
+    width: fit-content;
+}
+
+.other-projects-text{
+    width: 625;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+}
+
+.work>img{
+    width: 400px;
+    width: fit-content;
+}
+
+.worker{
+    /* display: block; */
+    justify-content: center;
+}
+
+.worker>p{
+    margin-left: 583px;
+    color: #8dc63f ;
+}
+
+.worker>h2{
+    margin-left: 525px;
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+  
+  .slide > img {
+    display: block;
+    width: 1280px;
+    height: 340px;
+    margin-left: 43px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+  }
+  
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+  
+  .carousel-button.prev {
+    left: 3rem;
+  }
+  
+  .carousel-button.next {
+    right: 3rem;
+  }
+
+#card{
+    display: flex;
+    justify-content: space-around;
+  }
+
+#part-of-foot{
+    display: flex;
+    justify-content: center;
+}
+
+#part-of-foot>img{
+    width: 1290px;
+}
+
+.footer>img{
+    width: 1348px;
 }
