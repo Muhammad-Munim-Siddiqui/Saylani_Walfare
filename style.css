@@ -402,3 +402,11 @@ a{
 .footer>img{
     width: 1348px;
 }
+
+.blue-p{
+    color: #0d6db7;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: .5em;
+}
