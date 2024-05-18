@@ -24,7 +24,14 @@ ul{
 #a{
     margin-inline: 10px;
     margin-top: 10px;
+    background-color: #8DC63F;
 }
+
+
+#a:hover{
+    background-color: #73a82a;
+}
+
 a{
     text-decoration: none;
 }
@@ -229,15 +236,15 @@ a{
 
 .box{
     width: 200px;
-    background: #e1ffb7;
+    background: #e5e7eb;
     margin: 0px 10px;
     padding: 19px;
     transition: .2s;
 
 }
 .box:hover{
-    transform: scale(1.3);
-    background: #e1ffb7;
+    transform: scale(1.1);
+    background:#e5e7eb
     z-index: 2;
 }
 
